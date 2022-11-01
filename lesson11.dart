@@ -1,10 +1,10 @@
 import 'dart:math';
 
 void main() {
-task1();
-task2();
-task3();
-task4();
+// task1();
+// task2();
+// task3();
+ task4();
 }
 
 //1)Выведите на экран сумму двух случайно сгенерированных чисел
@@ -14,6 +14,7 @@ void task1() {
   int randomNumber1 = Random().nextInt(50);
   print(randomNumber + randomNumber1);
 }
+
 //2) Заполните массив случайными числами, размер массива задайте через рандом
 
 void task2() {
@@ -38,17 +39,18 @@ void task3() {
     int randomNumber = (Random().nextInt(6));
     random.add(randomNumber);
   }
-  print('random == $random');
+  print('$random');
 
   for (int i = 0; i < random.length; i++) {
     if (random[i] == x) {
-      print('index == $i');
+      print('$i');
     }
   }
 }
 
 // 4)Заполните массив случайными числами в интервале [50,100]. Определить,
 // есть ли в нем элементы с одинаковыми значениями, стоящие рядом.
+
 void task4() {
 
   int min = 50;
